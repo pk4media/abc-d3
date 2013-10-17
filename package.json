@@ -1,0 +1,41 @@
+{
+  "name": "abc-d3",
+  "description": "A D3 time based graphing library for real world data.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/pk4media/abc-d3",
+  "copyright": "Copyright 2013 PK4 Media, Inc."
+  "author": {
+    "name": "David Negstad",
+    "email": "davidn@pk4media.com",
+    "url": "https://github.com/pk4media"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pk4media/abc-d3.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pk4media/abc-d3/issues"
+  },
+  "licenses": [
+    {
+      "type": "Apache2",
+      "url": "https://github.com/pk4media/abc-d3/blob/master/LICENSE"
+    }
+  ],
+  "main": "lib/abc-d3",
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "devDependencies": {
+    "grunt-contrib-concat": "~0.1.2",
+    "grunt-contrib-uglify": "~0.1.1",
+    "grunt-contrib-jshint": "~0.1.1",
+    "grunt-contrib-nodeunit": "~0.1.2",
+    "grunt-contrib-watch": "~0.2.0",
+    "grunt": "~0.4.1"
+  },
+  "keywords": []
+}
