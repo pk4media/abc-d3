@@ -25,12 +25,22 @@ ABCD3['Graph'] = Class.create({
     this.options.xMax = args.xMax || null;
   },
 
-  width: function() {
-    return parseInt(this.element.style('width'), 10);
+  width: function(width) {
+    if (!arguments.length) {
+      return parseInt(this.element.style('width'), 10);
+    }
+
+    this.element.style('width', width);
+    return this;
   },
 
-  height: function() {
-    return parseInt(this.element.style('height'), 10);
+  height: function(height) {
+    if (!arguments.length) {
+      return parseInt(this.element.style('height'), 10);
+    }
+
+    this.element.style('height', height);
+    return this;
   },
 
   xMin: function(min) {
